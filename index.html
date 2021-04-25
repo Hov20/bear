@@ -5,7 +5,7 @@
     <title>lesson 1
 
     </title>
-
+</head>
 <body>
     <h1>Ողջույն բոլորին</h1>
     <h2>Ես սովորում եմ QuestLine-ում</h2>
@@ -85,7 +85,7 @@
         </td>
     </tr>
 </table>
-<table callpadding="1" border="1">
+<table border="1">
     <tr align="center">
         <th rowspan="3">Day</th>
         <th colspan="4">Seminar</th>
@@ -114,7 +114,7 @@
         <td align="justify" rowspan="3">Tuesday</td>
         <td bgcolor="yellow">8:00 a.m.</td>
         <td bgcolor="yellow">11:00 a.m.</td>
-        <td colspan="2">XPath</td>
+        <td>XPath</td>
     </tr>
     <tr align="center">
         <td bgcolor="yellow">11:00 a.m.</td>
@@ -123,7 +123,7 @@
     <tr align="center">
         <td bgcolor="green">2:00 p.m.</td>
         <td bgcolor="purple">5:00 p.m.</td>
-        <td colspan="2">XSL Transformations</td>
+        <td>XSL Transformations</td>
     </tr>
     <tr align="center">
         <td>Wednesday</td>
@@ -131,10 +131,133 @@
         <td bgcolor="green">12:00 p.m.</td>
         <td colspan="2">XSL Formating Object</td>
     </tr>
+    
 
 </table>
+<br/>
+<hr/>
+<h2 align="center">Registration form</h2>
+<form>
+    <table cellpadding="10" align="center">
+        <tr>
+    <td><label for="First">First Name</label></td>
+    <td><input type="text" id="First" size="20"/></td>
+    </tr>
+    <tr>
+        <td><label for="Last">Last Name</label></td>
+        <td><input type="text" id="Last" size="20"/></td>
+    </tr>
+    <tr>
+        <td><label for="Nick">Nick Name</label></td>
+        <td><input type="text" id="Nick" size="20"/></td>
+    </tr>
+    <tr>
+        <td><label for="mail">e-mail</label></td>
+        <td><input type="text" id="mail" size="20"/></td>
+            </tr>
+            <tr>
+                <td><label for="Pass">Password</label></td>
+                <td><input type="text" id="Pass" size="20"/></td>
+            </tr>
+            <tr>
+                <td><label for="date">Date of Birth</label></td>
+                <td><input type="text" id="date" size="20"/></td>
+            </tr>
+            <tr>
+                <td><label>Gender</label></td>
+                <td><input type="radio" name="fir" id="milk"/><label for="milk">Male</label><input type="radio" name="fin" id="chees"/><label for="chees">Female</label><input type="radio" name="fim" id="meet"/><label for="meet">Others</label></td>
+                
+            </tr>
+            <tr>
+                <td><label for="mobile">Mobile</label></td>
+                <td><input type="text" id="mobile" size="20"/></td>
 
-</body>
-</head>
+            </tr>
+            <tr>
+                <td><label for="address">Address</label></td>
+                <td><input type="text" id="address" size="20"/></td>
+            </tr>
+            <tr>
+                <td><label></label></td>
+               <td><button type="submit">submit</button> <button type="reset">reset</button>
+            </tr>
+    </table>
+</form>
+<br/>
+<hr/>
+
+<h3 align="center" style="color: red;">Personal Detalis</h3>
+<form>
+    <table cellpadding="10" align="center">
+        <tr>
+            <td><label for="name">Name:</label></td>
+            <td><input type="text" id="name" size="20"/></td>
+        </tr>
+        <tr>
+            <td><label for="pass">Password:</label></td>
+            <td><input type="text" id="pass" size="20"/></td>
+        </tr>
+        <tr>
+            <td><label for="email">E-mail id:</label></td>
+            <td><input type="text" id="email" size="20"/></td>
+        </tr>
+        <tr>
+            <td><label>Gender:</label></td>
+            <td><input type="radio" name="shop" id="ab"/><label for="ab">Male</label><input type="radio" name="seen" id="cd"><label for="cd">Female</label></td>
+        </tr>
+        <tr>
+            <td><label for="contact">Contact#:</label></td>
+            <td><input type="text" id="contact" size="20"/></td>
+        </tr>
+    </table>
+</form>
+<h3 align="center" style="color: red;">Educational Qualification</h3>
+<form>
+    <table align="center" cellpadding="10">
+        <tr>
+            <td><label>Degree:</label></td>
+            <td><input type="hidden" size="20"/>
+                <select>
+                    <option value="A">--Select Group--</option>
+                    <option value="B">Class1</option>
+                    <option value="C">Class2</option>
+                </select>
+                
+            </td>
+        </tr>
+        
+        <tr>
+            <td><label>Engineering:</label></td>
+            <td><input type="hidden" size="20"/>
+                <select>
+                    <option value="D">--Select Group--</option>
+                    <option value="E">Class3</option>
+                    <option value="F">Class4</option>
+                </select>
+            </td>
+        </tr>
+        
+        <tr>
+            <td><label>Hobbies:</label></td>
+            <td><input type="checkbox"/><label>Playing chess</label></td>
+            <td><input type="checkbox"/><label>Reading Books</label></td>
+        </tr>
+    </table>
+</form>
+
+<h3 align="center" style="color: red;">Address</h3>
+   <form>   
+   <table align="center" cellpadding="10">
+   <tr>
+   <td><input type="text"/></td>
+   </tr>
+   <tr>
+   <td><label>Attch Resume:</label></td>
+   <td><input type="button" value="Choose File"/>No file choosen</td>
+   </tr>
+   </table>
+   </form>
+   </body>
+
 
 </html>
